@@ -1,4 +1,4 @@
-# DNS Cutover Strategy
+# DNS Cutover Strategy 
 
 ## Purpose
 Define a safe and reversible process to transition gregcurl.dev from GitHub Pages to Vercel without downtime.
