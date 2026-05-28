@@ -5,9 +5,12 @@ import { SiteNav } from "./site-nav";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://gregcurl.dev"),
-  title: "CurlTech",
+  title: {
+    default: "CurlTech | Operational Systems Practice",
+    template: "%s | CurlTech"
+  },
   description:
-    "A veteran-owned operational systems practice for workflow clarity, reliable records, and practical modernization.",
+    "CurlTech is a veteran-owned operational systems practice helping teams improve workflow clarity, reliable records, and practical modernization.",
   alternates: {
     canonical: "/"
   },
@@ -24,6 +27,35 @@ export const metadata: Metadata = {
         url: "/brand/curltech-icon-square.png",
         type: "image/png",
         sizes: "512x512"
+      }
+    ]
+  },
+  openGraph: {
+    title: "CurlTech | Operational Systems Practice",
+    description:
+      "Practical support for workflow clarity, reliable records, and operational modernization.",
+    url: "https://gregcurl.dev",
+    siteName: "CurlTech",
+    images: [
+      {
+        url: "/brand/curltech-icon-square.png",
+        width: 512,
+        height: 512,
+        alt: "CurlTech"
+      }
+    ],
+    locale: "en_US",
+    type: "website"
+  },
+  twitter: {
+    card: "summary",
+    title: "CurlTech | Operational Systems Practice",
+    description:
+      "Practical support for workflow clarity, reliable records, and operational modernization.",
+    images: [
+      {
+        url: "/brand/curltech-icon-square.png",
+        alt: "CurlTech"
       }
     ]
   }
