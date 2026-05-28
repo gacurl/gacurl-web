@@ -25,12 +25,13 @@ export default function AboutPage() {
   return (
     <div className="home-stack">
       <section className="content-card">
-        <p className="eyebrow">About Greg Curl / CurlTech</p>
+        <p className="eyebrow">About CurlTech</p>
         <h1>Veteran-owned systems work for real operational conditions.</h1>
         <p className="lede">
-          Greg Curl brings Navy-shaped operational discipline to software work:
-          clear workflows, reliable records, practical modernization, and tools
-          that reduce confusion instead of creating more of it.
+          CurlTech is a veteran-owned operational systems practice founded by
+          Greg Curl. The work centers on clear workflows, reliable records,
+          practical modernization, and tools that reduce confusion instead of
+          creating more of it.
         </p>
       </section>
 

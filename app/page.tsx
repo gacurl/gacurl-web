@@ -51,12 +51,12 @@ export default function HomePage() {
       <section className="content-card content-card--hero">
         <div className="hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">Greg Curl / CurlTech</p>
+            <p className="eyebrow">CurlTech</p>
             <h1>Operational systems built for work that has to hold up.</h1>
             <p className="lede">
-              Greg Curl builds practical software systems for teams that need
-              clearer workflows, reliable records, and technology that supports
-              the way the operation actually runs.
+              CurlTech builds practical software systems for teams that need
+              clearer workflows, reliable records, and tools that support the
+              way the operation actually runs.
             </p>
           </div>
           <div className="hero-aside">
