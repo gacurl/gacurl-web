@@ -10,15 +10,6 @@ export const metadata: Metadata = {
     "A veteran-owned operational systems practice for workflow clarity, reliable records, and practical modernization.",
   alternates: {
     canonical: "/"
-  },
-  icons: {
-    icon: [
-      {
-        url: "/brand/curltech-data-mark.png",
-        type: "image/png",
-        sizes: "768x512"
-      }
-    ]
   }
 };
 
