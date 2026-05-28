@@ -4,8 +4,9 @@ import "./globals.css";
 import { SiteNav } from "./site-nav";
 
 export const metadata: Metadata = {
-  title: "gacurl-web",
-  description: "A calm, professional web foundation for gacurl-web."
+  title: "Greg Curl / CurlTech",
+  description:
+    "Operational systems, practical modernization, and consulting work from Greg Curl / CurlTech."
 };
 
 const themeInitScript = `
@@ -52,7 +53,7 @@ export default function RootLayout({
           <header className="site-header">
             <div className="site-header__inner">
               <a className="site-brand" href="/">
-                gacurl-web
+                Greg Curl / CurlTech
               </a>
               <SiteNav />
             </div>
@@ -60,8 +61,8 @@ export default function RootLayout({
           <main className="site-main">{children}</main>
           <footer className="site-footer">
             <div className="site-footer__inner">
-              <p>Independent digital work, structured with care.</p>
-              <p>Built on a deliberately minimal Next.js foundation.</p>
+              <p>Operational systems and practical modernization.</p>
+              <p>Greg Curl / CurlTech.</p>
             </div>
           </footer>
         </div>

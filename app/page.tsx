@@ -2,40 +2,46 @@ import Link from "next/link";
 
 const capabilities = [
   {
-    title: "Operational modernization",
+    title: "Operational systems",
     description:
-      "Improve how work moves through a business by clarifying handoffs, reducing friction, and replacing brittle steps with maintainable systems."
+      "Build tools around the actual sequence of work, decisions, handoffs, and records teams rely on every day."
   },
   {
-    title: "Practical systems thinking",
+    title: "Practical modernization",
     description:
-      "Translate goals, constraints, and day-to-day realities into structures that people can actually use without adding unnecessary complexity."
+      "Replace brittle steps with clearer workflows, maintainable software, and changes that fit the operating environment."
   },
   {
-    title: "Workflow problem solving",
+    title: "Delivery discipline",
     description:
-      "Focus on the sequence of decisions, tools, and responsibilities behind delivery so improvements hold up under real operating conditions."
+      "Move in small, verifiable slices so systems improve without losing sight of reliability, ownership, or day-to-day use."
   }
 ];
 
 const proofItems = [
   {
-    label: "Project direction",
-    title: "Grounded foundations over performative launches",
+    label: "AssetTrack",
+    title: "Custody-aware asset operations",
     description:
-      "Work starts with core structure, route clarity, and maintainable delivery seams rather than presentation-first complexity."
+      "An offline-first asset custody system shaped around append-only history, scan workflows, and audit-friendly operating records."
   },
   {
-    label: "Operational lens",
-    title: "Built for teams that need reliability more than novelty",
+    label: "HumanityPro",
+    title: "Human-service workflow support",
     description:
-      "The emphasis is on making systems easier to run, easier to update, and easier to trust across normal business use."
+      "Product direction focused on practical service delivery, clearer coordination, and software that supports real human work."
   },
   {
-    label: "Working style",
-    title: "Deliberate scope, measurable progress, fewer moving parts",
+    label: "Settled Field Platform",
+    title: "Field operations structure",
     description:
-      "Each engagement favors the smallest useful change that improves throughput, visibility, or consistency without creating new operational drag."
+      "A field-work platform concept centered on route clarity, task flow, and operational visibility without unnecessary overhead."
+  },
+  {
+    label: "Bowling Green Highlands",
+    title: "Request-based local business systems",
+    description:
+      "A small-business web system shaped around clear public requests, operator-managed content, and simple verification paths."
   }
 ];
 
@@ -45,19 +51,18 @@ export default function HomePage() {
       <section className="content-card content-card--hero">
         <div className="hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">Operationally Grounded Consulting</p>
-            <h1>Modernize the work behind the business, not just the surface.</h1>
+            <p className="eyebrow">Greg Curl / CurlTech</p>
+            <h1>Operational systems built for work that has to hold up.</h1>
             <p className="lede">
-              gacurl-web is positioned around practical modernization for
-              organizations that need clearer workflows, steadier systems, and
-              technology choices that support operations instead of distracting
-              from them.
+              Greg Curl builds practical software systems for teams that need
+              clearer workflows, reliable records, and technology that supports
+              the way the operation actually runs.
             </p>
           </div>
           <div className="hero-aside">
             <p className="hero-note">
-              Veteran-owned perspective, with an emphasis on discipline,
-              reliability, and work that stands up in day-to-day use.
+              Veteran-led operational experience, software delivery discipline,
+              and a bias toward small changes that can be trusted in real use.
             </p>
             <div className="hero-actions">
               <Link className="button button--primary" href="/contact">
@@ -74,7 +79,7 @@ export default function HomePage() {
       <section className="content-card">
         <div className="section-heading">
           <p className="eyebrow">Capability Summary</p>
-          <h2>Clear thinking applied to operational systems and delivery flow.</h2>
+          <h2>Operational clarity, turned into software people can run.</h2>
         </div>
         <div className="feature-grid">
           {capabilities.map((item) => (
@@ -88,8 +93,8 @@ export default function HomePage() {
 
       <section className="content-card">
         <div className="section-heading">
-          <p className="eyebrow">Operational Proof</p>
-          <h2>Evidence of approach lives in structure, scope discipline, and execution style.</h2>
+          <p className="eyebrow">Selected Systems</p>
+          <h2>Proof points from custody, field, service, and small-business workflows.</h2>
         </div>
         <div className="proof-list">
           {proofItems.map((item) => (
@@ -105,19 +110,18 @@ export default function HomePage() {
       <section className="content-card content-card--split">
         <div className="section-heading">
           <p className="eyebrow">About Snapshot</p>
-          <h2>Consulting shaped by operational thinking and service-driven discipline.</h2>
+          <h2>Consulting shaped by operations, service, and software delivery.</h2>
         </div>
         <div className="split-copy">
           <p>
-            The working posture behind this site is straightforward: understand
-            the workflow, identify what is slowing the operation down, and make
-            improvements that are calm, durable, and proportionate to the
-            problem.
+            The working posture is straightforward: understand the workflow,
+            find what slows the operation down, and make the next useful
+            improvement without adding avoidable complexity.
           </p>
           <p>
-            Veteran-owned credibility matters here not as branding theater, but
-            as a signal of accountability, steadiness, and respect for systems
-            that people rely on every day.
+            The goal is not generic development capacity. It is operational
+            software with clear scope, readable structure, and enough discipline
+            to stay useful after launch.
           </p>
         </div>
       </section>
@@ -125,12 +129,11 @@ export default function HomePage() {
       <section className="content-card content-card--cta">
         <div className="section-heading">
           <p className="eyebrow">Next Step</p>
-          <h2>If the work needs clearer structure, the next move is a direct conversation.</h2>
+          <h2>If the work needs clearer structure, start with the operation.</h2>
         </div>
         <p className="lede">
-          The contact route is in place as the simplest path forward for scoping
-          operational improvements, modernization priorities, or workflow
-          bottlenecks.
+          Use the contact route to discuss workflow bottlenecks, modernization
+          priorities, or systems that need a steadier operating foundation.
         </p>
         <div className="hero-actions">
           <Link className="button button--primary" href="/contact">
