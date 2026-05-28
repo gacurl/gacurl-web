@@ -4,9 +4,9 @@ import "./globals.css";
 import { SiteNav } from "./site-nav";
 
 export const metadata: Metadata = {
-  title: "Greg Curl / CurlTech",
+  title: "CurlTech",
   description:
-    "Operational systems, practical modernization, and consulting work from Greg Curl / CurlTech."
+    "A veteran-owned operational systems practice for workflow clarity, reliable records, and practical modernization."
 };
 
 const themeInitScript = `
@@ -53,7 +53,7 @@ export default function RootLayout({
           <header className="site-header">
             <div className="site-header__inner">
               <a className="site-brand" href="/">
-                Greg Curl / CurlTech
+                CurlTech
               </a>
               <SiteNav />
             </div>
@@ -62,7 +62,7 @@ export default function RootLayout({
           <footer className="site-footer">
             <div className="site-footer__inner">
               <p>Operational systems and practical modernization.</p>
-              <p>Greg Curl / CurlTech.</p>
+              <p>Founded by Greg Curl.</p>
             </div>
           </footer>
         </div>

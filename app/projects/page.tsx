@@ -32,8 +32,8 @@ export default function ProjectsPage() {
         <p className="eyebrow">Projects</p>
         <h1>Operational capability demonstrations.</h1>
         <p className="lede">
-          Selected systems show how Greg Curl / CurlTech approaches workflow
-          clarity, reliable records, admin coordination, public platforms, and
+          Selected systems show how CurlTech approaches workflow clarity,
+          reliable records, admin coordination, public platforms, and
           disciplined implementation.
         </p>
       </section>
