@@ -136,9 +136,16 @@ h1 {
 }
 
 .site-brand {
-  font-size: 1rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  min-height: 3rem;
+}
+
+.site-brand__wordmark {
+  display: block;
+  width: clamp(5.75rem, 12vw, 7.5rem);
+  height: auto;
+  border-radius: 0.35rem;
 }
 
 .site-nav-wrap {
@@ -461,6 +468,15 @@ h1 {
   border-top: 1px solid var(--border);
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.site-footer__brand {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.site-footer__name {
+  color: var(--foreground);
 }
 
 @media (max-width: 720px) {
