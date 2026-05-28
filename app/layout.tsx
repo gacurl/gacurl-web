@@ -4,9 +4,13 @@ import "./globals.css";
 import { SiteNav } from "./site-nav";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gregcurl.dev"),
   title: "CurlTech",
   description:
-    "A veteran-owned operational systems practice for workflow clarity, reliable records, and practical modernization."
+    "A veteran-owned operational systems practice for workflow clarity, reliable records, and practical modernization.",
+  alternates: {
+    canonical: "/"
+  }
 };
 
 const themeInitScript = `
