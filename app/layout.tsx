@@ -73,13 +73,15 @@ export default function RootLayout({
           <header className="site-header">
             <div className="site-header__inner">
               <a className="site-brand" href="/">
-                <img
-                  alt="CurlTech"
-                  className="site-brand__wordmark"
-                  height="157"
-                  src="/brand/curltech-wordmark.png"
-                  width="476"
-                />
+                <span className="site-brand-mark">
+                  <img
+                    alt="CurlTech"
+                    className="site-brand__wordmark"
+                    height="157"
+                    src="/brand/curltech-wordmark.png"
+                    width="476"
+                  />
+                </span>
               </a>
               <SiteNav />
             </div>
