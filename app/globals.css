@@ -136,9 +136,24 @@ h1 {
 }
 
 .site-brand {
-  font-size: 1rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  min-height: 3rem;
+}
+
+.site-brand-mark {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: clamp(6.25rem, 13vw, 7.5rem);
+}
+
+.site-brand__wordmark {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.35rem;
+  object-fit: contain;
 }
 
 .site-nav-wrap {
@@ -463,20 +478,58 @@ h1 {
   font-size: 0.95rem;
 }
 
+.site-footer__brand {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.site-footer__name {
+  color: var(--foreground);
+}
+
 @media (max-width: 720px) {
-  .site-header__inner,
+  .site-header__inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.75rem 0 0.9rem;
+  }
+
   .site-footer__inner {
     flex-direction: column;
     align-items: flex-start;
   }
 
+  .site-brand {
+    min-height: 2.25rem;
+  }
+
+  .site-brand-mark {
+    width: min(8.75rem, 44vw);
+  }
+
   .site-nav__list {
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3rem;
   }
 
   .site-nav-wrap {
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .site-nav__link {
+    padding: 0.42rem 0.62rem;
+    color: var(--foreground);
+    font-size: 0.94rem;
+  }
+
+  .theme-toggle {
+    flex: 0 0 auto;
+    width: 2.45rem;
+    height: 2.45rem;
   }
 
   .content-grid {
