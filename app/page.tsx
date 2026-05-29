@@ -2,19 +2,19 @@ import Link from "next/link";
 
 const capabilities = [
   {
-    title: "Operational systems",
+    title: "Clean up the flow",
     description:
-      "Build tools around the actual sequence of work, decisions, handoffs, and records teams rely on every day."
+      "Map how the work really moves, then turn scattered steps into a path people can follow."
   },
   {
-    title: "Practical modernization",
+    title: "Make records easier to trust",
     description:
-      "Replace brittle steps with clearer workflows, maintainable software, and changes that fit the operating environment."
+      "Help teams see what happened, what changed, and what needs attention without chasing side notes."
   },
   {
-    title: "Delivery discipline",
+    title: "Build the next useful piece",
     description:
-      "Move in small, verifiable slices so systems improve without losing sight of reliability, ownership, or day-to-day use."
+      "Keep the work scoped, practical, and easy to verify so the fix does not become another workaround."
   }
 ];
 
@@ -79,8 +79,8 @@ export default function HomePage() {
 
       <section className="content-card">
         <div className="section-heading">
-          <p className="eyebrow">Capability Summary</p>
-          <h2>Operational clarity, turned into software people can run.</h2>
+          <p className="eyebrow">What Gets Clearer</p>
+          <h2>Cleaner handoffs, steadier records, and tools people can actually use.</h2>
         </div>
         <div className="feature-grid">
           {capabilities.map((item) => (
@@ -95,7 +95,7 @@ export default function HomePage() {
       <section className="content-card">
         <div className="section-heading">
           <p className="eyebrow">Selected Systems</p>
-          <h2>Proof points from custody, field, service, and small-business workflows.</h2>
+          <h2>Practical proof from messy custody, field, service, and small-business work.</h2>
         </div>
         <div className="proof-list">
           {proofItems.map((item) => (
@@ -110,18 +110,18 @@ export default function HomePage() {
 
       <section className="content-card content-card--split">
         <div className="section-heading">
-          <p className="eyebrow">About Snapshot</p>
-          <h2>Consulting shaped by operations, service, and software delivery.</h2>
+          <p className="eyebrow">How It Works</p>
+          <h2>Start with the work as it is. Build what helps next.</h2>
         </div>
         <div className="split-copy">
           <p>
-            The working posture is straightforward: understand the workflow,
-            find what slows the operation down, and make the next useful
-            improvement without adding avoidable complexity.
+            The first move is simple: understand the workflow, find where it
+            slows down, and make the next useful improvement without adding
+            avoidable complexity.
           </p>
           <p>
-            The goal is not generic development capacity. It is operational
-            software with clear scope, readable structure, and enough discipline
+            The goal is not generic development capacity. It is a practical
+            system with clear scope, readable structure, and enough discipline
             to stay useful after launch.
           </p>
         </div>
@@ -130,18 +130,18 @@ export default function HomePage() {
       <section className="content-card content-card--cta">
         <div className="section-heading">
           <p className="eyebrow">Next Step</p>
-          <h2>If the work needs clearer structure, start with the operation.</h2>
+          <h2>Bring the messy workflow. Start with what is real.</h2>
         </div>
         <p className="lede">
-          Use the contact route to discuss workflow bottlenecks, modernization
-          priorities, or systems that need a steadier operating foundation.
+          Share what the work is, where it slows down, and what would be easier
+          to run if the system made more sense.
         </p>
         <div className="hero-actions">
           <Link className="button button--primary" href="/contact">
-            Go to contact
+            Talk through the work
           </Link>
           <Link className="button button--secondary" href="/projects">
-            Review project direction
+            See practical proof
           </Link>
         </div>
       </section>
