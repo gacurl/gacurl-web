@@ -52,24 +52,25 @@ export default function HomePage() {
         <div className="hero-grid">
           <div className="hero-copy">
             <p className="eyebrow">CurlTech</p>
-            <h1>Operational systems built for work that has to hold up.</h1>
+            <h1>Simple systems for messy work.</h1>
             <p className="lede">
-              CurlTech builds practical software systems for teams that need
-              clearer workflows, reliable records, and tools that support the
-              way the operation actually runs.
+              CurlTech helps small teams turn scattered spreadsheets, email
+              handoffs, and unclear processes into practical tools people can
+              actually use.
             </p>
           </div>
           <div className="hero-aside">
             <p className="hero-note">
-              Veteran-led operational experience, software delivery discipline,
-              and a bias toward small changes that can be trusted in real use.
+              Useful when the work lives in too many places: tracking, records,
+              status, handoffs, and the unwritten steps one person has to
+              remember.
             </p>
             <div className="hero-actions">
               <Link className="button button--primary" href="/contact">
-                Start a conversation
+                Talk through a messy workflow
               </Link>
               <Link className="button button--secondary" href="/services">
-                View service areas
+                See how CurlTech helps
               </Link>
             </div>
           </div>
