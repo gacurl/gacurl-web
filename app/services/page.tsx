@@ -1,23 +1,23 @@
 const serviceAreas = [
   {
-    title: "Workflow clarity",
+    title: "When the work lives in spreadsheets and email",
     description:
-      "Map how work moves today, identify unclear handoffs, and turn the next useful improvement into a practical system path."
+      "CurlTech helps sort the moving pieces, name what needs to be tracked, and shape a cleaner way to run the work."
   },
   {
-    title: "Records and process integrity",
+    title: "When handoffs depend on memory",
     description:
-      "Improve how teams capture, trust, and use operational records without adding unnecessary process weight."
+      "Clarify who owns the next step, where status lives, and what records people need before another ball gets dropped."
   },
   {
-    title: "Practical modernization",
+    title: "When the tool exists, but nobody trusts it",
     description:
-      "Replace brittle steps, manual tracking, or outdated tooling with maintainable software that fits the operation."
+      "Find why people work around the system, then improve the workflow so the tool fits the job instead of fighting it."
   },
   {
-    title: "Lightweight systems review",
+    title: "When the process grew past its owner",
     description:
-      "Review an existing workflow, internal tool, or public process and leave with a clearer, scoped next step."
+      "Review the workflow, expose the hidden steps, and leave with a scoped next move instead of a giant platform plan."
   }
 ];
 
@@ -26,18 +26,17 @@ export default function ServicesPage() {
     <div className="home-stack">
       <section className="content-card">
         <p className="eyebrow">Services</p>
-        <h1>Practical systems help for operational work.</h1>
+        <h1>Help for the work that got too messy to run by memory.</h1>
         <p className="lede">
-          CurlTech helps small teams and internal operations make workflows
-          clearer, records easier to trust, and modernization efforts easier to
-          scope.
+          CurlTech helps small teams turn messy workflows, scattered tracking,
+          and unclear handoffs into simple systems people can actually use.
         </p>
       </section>
 
       <section className="content-card">
         <div className="section-heading">
-          <p className="eyebrow">Service Areas</p>
-          <h2>Focused support for the parts of the operation that need structure.</h2>
+          <p className="eyebrow">Where This Helps</p>
+          <h2>Start with the situation people already recognize.</h2>
         </div>
         <div className="content-grid">
           {serviceAreas.map((service) => (
@@ -52,18 +51,18 @@ export default function ServicesPage() {
       <section className="content-card content-card--split">
         <div className="section-heading">
           <p className="eyebrow">How It Starts</p>
-          <h2>Start with the workflow, then choose the smallest useful move.</h2>
+          <h2>Make the work make sense before building more of it.</h2>
         </div>
         <div className="split-copy">
           <p>
-            A first pass usually starts by clarifying the current process: what
-            enters the system, who touches it, where records live, and where the
-            work gets harder than it should.
+            A first pass starts with the current mess: what comes in, who
+            touches it, where tracking happens, what records matter, and where
+            the process gets harder than it should.
           </p>
           <p>
-            From there, the next step can stay small: a systems review, a better
-            operating model, or a focused implementation slice that is easy to
-            verify.
+            From there, the next step can stay small: cleaner handoffs, simpler
+            tracking, a better operating model, or a focused tool that turns
+            the workaround into the workflow.
           </p>
         </div>
       </section>
