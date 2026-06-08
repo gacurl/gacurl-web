@@ -26,6 +26,19 @@ const contactIntents = [
   }
 ];
 
+const fitGuidance = [
+  {
+    title: "Good fit",
+    description:
+      "Small teams with a real workflow problem, a practical system to improve, or a stalled project that needs clearer scope and next steps."
+  },
+  {
+    title: "Not the right fit",
+    description:
+      "Broad staffing, full-service marketing, always-on support desks, or rush builds where the work and owner are not clear yet."
+  }
+];
+
 export default function ContactPage() {
   return (
     <div className="home-stack">
@@ -54,21 +67,24 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="content-card content-card--split">
+      <section className="content-card">
         <div className="section-heading">
-          <p className="eyebrow">Good Fit</p>
-          <h2>Useful starting points for a first conversation.</h2>
+          <p className="eyebrow">Fit Check</p>
+          <h2>Useful consulting starts with a clear practical problem.</h2>
         </div>
-        <div className="split-copy">
-          <p>
-            Bring the process that feels harder than it should: handoffs,
-            intake, tracking, records, coordination, or status visibility.
-          </p>
-          <p>
-            A useful first note can be simple: what the work is, where it slows
-            down, and what would be easier to trust if the system were clearer.
-          </p>
+        <div className="content-grid">
+          {fitGuidance.map((item) => (
+            <article key={item.title}>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </article>
+          ))}
         </div>
+        <p className="lede">
+          A useful first note can be simple: what the work is, where it slows
+          down, who owns it, and what would be easier to trust if the system
+          were clearer.
+        </p>
       </section>
     </div>
   );
