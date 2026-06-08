@@ -1,3 +1,31 @@
+const contactIntents = [
+  {
+    title: "Workflow cleanup",
+    description:
+      "When the steps are known by memory, scattered across tools, or harder to explain than they should be."
+  },
+  {
+    title: "Small system modernization",
+    description:
+      "When an older spreadsheet, form, or internal tool still matters but needs a clearer way forward."
+  },
+  {
+    title: "Project rescue",
+    description:
+      "When a useful project has stalled, drifted, or needs practical triage before more work is added."
+  },
+  {
+    title: "Operational clarity",
+    description:
+      "When roles, records, handoffs, or status need to be easier for people to trust and act on."
+  },
+  {
+    title: "Lightweight technical consulting",
+    description:
+      "When you need a calm second read on scope, tradeoffs, architecture, or the next useful move."
+  }
+];
+
 export default function ContactPage() {
   return (
     <div className="home-stack">
@@ -9,6 +37,21 @@ export default function ContactPage() {
           reliability, or an operational system needs a practical modernization
           path.
         </p>
+      </section>
+
+      <section className="content-card">
+        <div className="section-heading">
+          <p className="eyebrow">Reach Out About</p>
+          <h2>Practical problems are enough to start.</h2>
+        </div>
+        <div className="content-grid">
+          {contactIntents.map((intent) => (
+            <article key={intent.title}>
+              <h3>{intent.title}</h3>
+              <p>{intent.description}</p>
+            </article>
+          ))}
+        </div>
       </section>
 
       <section className="content-card content-card--split">
