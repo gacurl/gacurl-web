@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ConsultationCta } from "./consultation-cta";
 
 const capabilities = [
   {
@@ -127,24 +128,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="content-card content-card--cta">
-        <div className="section-heading">
-          <p className="eyebrow">Next Step</p>
-          <h2>Bring the messy workflow. Start with what is real.</h2>
-        </div>
-        <p className="lede">
-          Share what the work is, where it slows down, and what would be easier
-          to run if the system made more sense.
-        </p>
-        <div className="hero-actions">
-          <Link className="button button--primary" href="/contact">
-            Talk through the work
-          </Link>
-          <Link className="button button--secondary" href="/projects">
-            See practical proof
-          </Link>
-        </div>
-      </section>
+      <ConsultationCta />
     </div>
   );
 }

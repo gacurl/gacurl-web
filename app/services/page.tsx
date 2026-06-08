@@ -1,3 +1,5 @@
+import { ConsultationCta } from "../consultation-cta";
+
 const serviceAreas = [
   {
     title: "When the work lives in spreadsheets and email",
@@ -66,6 +68,8 @@ export default function ServicesPage() {
           </p>
         </div>
       </section>
+
+      <ConsultationCta />
     </div>
   );
 }

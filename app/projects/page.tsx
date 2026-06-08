@@ -1,3 +1,5 @@
+import { ConsultationCta } from "../consultation-cta";
+
 const projects = [
   {
     name: "AssetTrack",
@@ -53,6 +55,8 @@ export default function ProjectsPage() {
           ))}
         </div>
       </section>
+
+      <ConsultationCta />
     </div>
   );
 }
