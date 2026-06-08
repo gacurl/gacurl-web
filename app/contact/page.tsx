@@ -39,6 +39,8 @@ const fitGuidance = [
   }
 ];
 
+const contactEmail = "greg@curltechllc.com";
+
 export default function ContactPage() {
   return (
     <div className="home-stack">
@@ -50,6 +52,23 @@ export default function ContactPage() {
           reliability, or an operational system needs a practical modernization
           path.
         </p>
+      </section>
+
+      <section className="content-card content-card--cta">
+        <div className="section-heading">
+          <p className="eyebrow">Direct Email</p>
+          <h2>Email CurlTech about the work you want to make clearer.</h2>
+        </div>
+        <p className="lede">
+          Send a short note to{" "}
+          <a href={`mailto:${contactEmail}`}>{contactEmail}</a> with what the
+          work is, where it slows down, and what would be easier to trust.
+        </p>
+        <div className="hero-actions">
+          <a className="button button--primary" href={`mailto:${contactEmail}`}>
+            Email {contactEmail}
+          </a>
+        </div>
       </section>
 
       <section className="content-card">
